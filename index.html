@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodrigo.dev</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <div class="nav-header">
+                <h2>Rodrigo.dev</h2>
+                <button class="material-icons" id="nav-toggle">menu</button>
+            </div>
+            <ul class="nav-menu">
+                <button class="material-icons close-btn">close</button>
+                <div class="li-container">
+                    <li><a href="#introduction-section" class="close-li">Home</a></li>
+                    <li><a href="#projects-section" class="close-li">Projects</a></li>
+                    <li><a href="#about-me-section" class="close-li">About</a></li>
+                    <li><a href="#contact-section" class="close-li">Contact</a></li>
+                </div>
+            </ul>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#introduction-section" class="close-li">Home</a></li>
+                    <li><a href="#projects-section" class="close-li">Projects</a></li>
+                    <li><a href="#about-me-section" class="close-li">About</a></li>
+                    <li><a href="#contact-section" class="close-li">Contact</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="hero-container">
+            <section class="introduction" id="introduction-section">
+                <div class="wave-container">
+                    <p>Hey, there</p>
+                    <p class="wave-emoji">👋🏼</p>
+                </div>
+    
+                <div class="introduction-h2">
+                    <h2>I'm <div class="name">Rodrigo Chavez</div></h2>
+                    <h2>a Front-End Developer</h2>
+                </div>
+                <p>aiming to create digital experiences that are both functional and visually appealing.</p>
+                <a href="mailto:rchavez1838@gmail.com">
+                    <span class="material-icons">mail</span>
+                </a>
+            </section>
+    
+            <section class="image-container">
+                <img src="selfie2.jpeg" alt="Selfie">
+                <a href="mailto:rchavez1838@gmail.com">
+                    <button><span class="material-icons">mail</span>Email</button>
+                </a>
+            </section>
+        </div>
+
+        <section class="toolkit">
+            <h3>My Toolkit</h3>
+            <div class="toolkit-icons">
+                <img src="html-5-svgrepo-com.svg" alt="Icon" class="html-icon">
+                <img src="css-3-svgrepo-com.svg" alt="Icon" class="css-icon">
+                <img src="javascript-svgrepo-com.svg" alt="Icon" class="js-icon">
+                <img src="bootstrap-svgrepo-com.svg" alt="bootstrap-icon">
+            </div>
+        </section>
+
+        <section class="projects" id="projects-section">
+            <h3>PROJECTS</h3>
+            <p>Coming Soon...</p>
+        </section>
+
+        <section class="about-me" id="about-me-section">
+            <h3>About Me</h3>
+            <p>
+                Hey, my name is Rodrigo and I am a Front-End Developer. My main stack at the moment is HTML, CSS, and JavaScript
+                I am learning React and Tailwind in order to add more to my tookit in the future.
+            </p>
+            <p>Other than coding, I enjoy playing basketball and video games on my free time.</p>
+        </section>
+
+        <section class="form" id="contact-section">
+            <h3>Let's Connect</h3>
+            <p>Feel free to send me a message here!</p>
+            <form class="input-fields" action="https://formspree.io/f/mdkazzan" method="post">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+                <textarea name="message" class="message" cols="30" rows="10" placeholder="message"></textarea>
+                <button type="submit">SEND</button>
+            </form>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Icons by <a href="https://www.svgrepo.com/" title="html icons">svgrepo</a></p>
+        <p>Copyright &#169 2025. All rights are reserved</p>
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>
